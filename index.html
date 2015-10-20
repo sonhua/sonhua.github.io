@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <style>
+    p {
+        font-size: 16px;
+    }
+    ul.research {
+        list-style:none;
+        padding-left:0;
+        padding-top:20px;
+    }
+    ul.research li {
+        padding-bottom: 20px;
+    }
+    div.thumb {
+        float:left;
+        padding-right:20px;
+    }
+    div.details{
+        float:left;
+    }
+    div.clear{
+        clear:left;
+    }
+    p.title {
+        font-size: 16px;
+        line-height: 90%;
+        color: #536872;
+        font-weight: bold;
+    }
+    p.author {
+        font-size: 14px;
+        line-height: 80%;
+        color: #505050;
+    }
+    span.me {
+        font-size: 14px;
+        line-height: 80%;
+        text-decoration: underline;
+    }
+    p.venue {
+        font-size: 14px;
+        line-height: 80%;
+        color: #505050;
+    }
+    p.material {
+        font-size: 14px;
+        line-height: 80%;
+        color: #505050;
+    }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            
+            <!-- When view is too narrow (mobile mode), navigation will collapse -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    
+                    
+                    <div style="float:left">
+                    <h3>Binh-Son Hua</h3>
+                    <p class="text-info"><span class="glyphicon glyphicon-envelope"></span> binhson_hua (at) sutd.edu.sg</p>
+                    </div>
+                    <div style="float:right">
+                    
+                    <img src="images/face128.png"></img>
+                    
+                    </div>
+                    <div style="clear:left"></div>
+                    
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <p>
+                    I am currently a postdoctoral researcher at Singapore University of Technology and Design.
+                    <p>
+                    
+                    <p>
+                    My research interests include physically based rendering, 3D reconstruction, and computational photography.
+                    </p>
+                    
+                    <p>
+                    I completed my PhD at School of Computing, National University of Singapore in May 2015, under the supervision of Dr. <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a>. Before coming to NUS, I obtained my Bachelor degree at Ho Chi Minh City University of Technology in 2008.
+                    </p>
+
+                    <br>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Research</h3>
+                    
+                    <ul class="research">
+        <li>
+        <div class="thumb"><img src="images/thumb_sa15.png"></img></div>
+        <div class="details">
+        <p class="title">Guided Path Tracing Using Clustered Virtual Point Lights</p>
+        <p class="author"><span class="me">Binh-Son Hua</span> and Kok-Lim Low</p>
+        <p class="venue">SIGGRAPH Asia 2015 Posters Program</p>
+        <p class="material">
+              <a href="pdf/hua-metro.pdf" role="button" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;pdf</a>
+              <a href="pdf/hua-metro-poster.pdf" role="button" class="btn btn-xs btn-default">poster</a>
+        </p>
+        </div>
+        <div class="clear"></div>
+        </li>
+    
+        <li>
+        <div class="thumb"><img src="images/thumb_icip14.png"></img></div>
+        <div class="details">
+        <p class="title">Calibration of Depth Cameras Using Denoised Depth Images</p>
+        <p class="author">Ramanpreet Pahwa, Minh Do, <a href="http://www1.i2r.a-star.edu.sg/~ttng/">Tian-Tsong Ng</a>, and <span class="me">Binh-Son Hua</span></p>
+        <p class="venue">ICIP 2014</p>
+        </div>
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+        <div class="thumb"><img src="images/thumb_pami13.png"></img></div>
+        <div class="details">
+        <p class="title">Intrinsic Image Decomposition Using a Sparse Representation of Reflectance</p>
+        <p class="author">Li Shen, Chuohao Yeo, and <span class="me">Binh-Son Hua</span></p>
+        <p class="venue">TPAMI 2013</p>
+        </div>
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+        <div class="thumb"><img src="images/thumb_icip13a.png"></img></div>
+        <div class="details">
+        <p class="title">Direct and Progressive Reconstruction of Dual Photography Images</p>
+        <p class="author"><span class="me">Binh-Son Hua</span>, <a href="http://research.nii.ac.jp/~imarik/">Imari Sato</a>, and <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a></p>
+        <p class="venue">ICIP 2013</p>
+        <p class="material">
+            <a href="project/dual/" role="button" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
+        </p>
+        </div>
+        <div class="clear"></div>
+        </li>
+
+        <li>
+        <div class="thumb"><img src="images/thumb_icip13b.png"></img></div>
+        <div class="details">
+        <p class="title">Reconstruction of Depth and Normals from Interreflections</p>
+        <p class="author"><span class="me">Binh-Son Hua</span>, <a href="http://www1.i2r.a-star.edu.sg/~ttng/">Tian-Tsong Ng</a>, and <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a></p>
+        <p class="venue">ICIP 2013</p>
+        <p class="material">
+            <a href="project/geolight/" role="button" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
+        </p>
+        </div>
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+        <div class="thumb"><img src="images/thumb_icip11.png"></img></div>
+        <div class="details">
+        <p class="title">Interactive Motion Deblurring Using Light Streaks</p>
+        <p class="author"><span class="me">Binh-Son Hua</span> and <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a></p>
+        <p class="venue">ICIP 2011</p>
+        <p class="material">
+            <a href="project/deblur/" role="button" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="pdf/hua-interactive-deblur-poster-a0.pdf" role="button" class="btn btn-xs btn-default">poster</a>
+        </p>
+        </div>
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+        <div class="thumb"><img src="images/thumb_pcm10.png"></img></div>
+        <div class="details">
+        <p class="title">Adaptive Energy Diffusion for Blind Inverse Halftoning</p>
+        <p class="author">Lei Wang, <span class="me">Binh-Son Hua</span>, and Xueqing Li</p>
+        <p class="venue">PCM 2010</p>
+        <p class="material">
+            <a href="pdf/hua-adaptive-energy-diffusion-pcm10.pdf" role="button" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;pdf</a>
+        </p>
+        </div>
+        <div class="clear"></div>
+        </li>
+        
+	</ul>
+	</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Contact</h3>
+                    <p>If you cannot reach me using the SUTD email, please send me a message to my personal email: <span class="text-info">binhson.hua (at) gmail.com</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
