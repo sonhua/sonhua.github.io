@@ -74,6 +74,32 @@
         font-size: 14px;
         color: #505050;
     }
+    .hr-sect {
+        font-size: 16px;
+        display: flex;
+        flex-basis: 100%;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.15);
+        margin: 8px 0px;
+    }
+    .hr-sect:before {
+        content: "";
+        flex-grow: 1;
+        background: rgba(0, 0, 0, 0.15);
+        height: 1px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 0px 8px;
+    }
+    .hr-sect:after {
+        content: "";
+        flex-grow: 0;
+        background: rgba(0, 0, 0, 0.15);
+        height: 1px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 0px 8px;
+    }
     </style>
 </head>
 
@@ -120,8 +146,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-
-
 
                     <div style="float:left">
 
@@ -222,6 +246,164 @@
 
                     <ul class="research">
         
+        <!-- 2022 -->
+        <li><div class="hr-sect">2022</div></li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_eccv22_rfnet.gif"></img></div>
+            <div class="details">
+            <p class="title">RFNet-4D: Joint Object Reconstruction and Flow Estimation from 4D Point Clouds</p>
+            <p class="author">Tuan-Anh Vu, Duc-Thanh Nguyen, <span class="me">Binh-Son Hua</span>, Quang-Hieu Pham, Sai-Kit Yeung</p>
+            <p class="venue">ECCV 2022 (<font color="#BB4444"><b>Oral</b></font>)</p>
+            <p class="material">
+                <a href="https://arxiv.org/pdf/2203.16482.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_eccv22_nds.jpg"></img></div>
+            <div class="details">
+            <p class="title">Neural Scene Decoration from a Single Photograph</p>
+            <p class="author">Hong-Wing Pang, Yingshu Chen, <span class="me">Binh-Son Hua</span>, Sai-Kit Yeung</p>
+            <p class="venue">ECCV 2022</p>
+            <p class="material">
+                <a href="https://arxiv.org/pdf/2108.01806.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            <!--
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+            -->
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_eccv22_tise.jpg"></img></div>
+            <div class="details">
+            <p class="title">TISE: Bag of Metrics for Text-to-Image Synthesis Evaluation</p>
+            <p class="author">Tan M. Dinh, Rang Nguyen, <span class="me">Binh-Son Hua</span></p>
+            <p class="venue">ECCV 2022</p>
+            <p class="material">
+                <a href="https://arxiv.org/pdf/2112.01398.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://github.com/VinAIResearch/tise-toolbox" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_eccv22_fewshot.png"></img></div>
+            <div class="details">
+            <p class="title">Inductive and Transductive Few-Shot Video Classification via Appearance and Temporal Alignments</p>
+            <p class="author">Khoi D. Nguyen, Quoc-Huy Tran, Khoi Nguyen, <span class="me">Binh-Son Hua</span>, Rang Nguyen</p>
+            <p class="venue">ECCV 2022</p>
+            <p class="material">
+                <a href="https://arxiv.org/pdf/2207.10785.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_sg22b.jpg"></img></div>
+            <div class="details">
+            <p class="title">Self-Supervised Post-Correction for Monte Carlo Denoising</p>
+            <p class="author">Jonghee Back, <span class="me">Binh-Son Hua</span>, Toshiya Hachisuka, Bochang Moon</p>
+            <p class="venue">SIGGRAPH North America Conference Proceedings 2022</p>
+            <p class="material">
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3528233.3530730" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_sg22.png"></img></div>
+            <div class="details">
+            <p class="title">Regression-based Monte Carlo Integration</p>
+            <p class="author">Corentin Salaün, Adrien Gruson, <span class="me">Binh-Son Hua</span>, Toshiya Hachisuka, Gurprit Singh</p>
+            <p class="venue">SIGGRAPH North America 2022</p>
+            <p class="material">
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3528223.3530095" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+        
+        <li>
+            <div class="thumb"><img src="images/thumb_iccp22.jpg"></img></div>
+            <div class="details">
+            <p class="title">Time-of-Day Neural Style Transfer
+                for Architectural Photographs</p>
+            <p class="author">Yingshu Chen, Tuan-Anh Vu, Ka-Chun Shum, <span class="me">Binh-Son Hua</span>, Sai-Kit Yeung</p>
+            <p class="venue">ICCP 2022</p>
+            <p class="material">
+                <a href="https://chenyingshu.github.io/time_of_day/assets/ICCP_2022_paper.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_cvpr22.gif"></img></div>
+            <div class="details">
+            <p class="title">HyperInverter: Improving StyleGAN Inversion via Hypernetwork</p>
+            <p class="author">Tan M Dinh, Anh Tuan Tran, Rang Nguyen, <span class="me">Binh-Son Hua</span></p>
+            <p class="venue">CVPR 2022</p>
+            <p class="material">
+                <a href="https://di-mi-ta.github.io/HyperInverter/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Dinh_HyperInverter_Improving_StyleGAN_Inversion_via_Hypernetwork_CVPR_2022_paper.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li> 
+
+        <li>
+            <div class="thumb"><img src="images/thumb_ijcv22.png"></img></div>
+            <div class="details">
+            <p class="title">RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning</p>
+            <p class="author">Zhiyuan Zhang, <span class="me">Binh-Son Hua</span>, Sai-Kit Yeung</p>
+            <p class="venue">International Journal of Computer Vision (IJCV) 2022</p>
+            <p class="material">
+                <a href="https://arxiv.org/pdf/2202.13094.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li> 
+
+        <li>
+            <div class="thumb"><img src="images/thumb_isbi22.png"></img></div>
+            <div class="details">
+            <p class="title">SS-3DCapsNet: Self-supervised 3D Capsule Networks for Medical Segmentation on Less Labeled Data</p>
+            <p class="author">Minh Tran, Loi Ly, <span class="me">Binh-Son Hua</span>, <a href="https://www.nganle.net/">Ngan Le</a></p>
+            <p class="venue">International Symposium on Biomedical Imaging (ISBI) 2022</p>
+            <p class="material">
+                <a href="https://arxiv.org/pdf/2201.05905.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li> 
+
+        <!-- 2021 -->
+        <li><div class="hr-sect">2021</div></li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_dcai21.png"></img></div>
+            <div class="details">
+            <p class="title">Single-Click 3D Object Annotation on LiDAR Point Clouds</p>
+            <p class="author"><a href="https://trung6.github.io">Trung Nguyen</a>, <span class="me">Binh-Son Hua</span>, Duc Thanh Nguyen, Dinh Phung</p>
+            <p class="venue">NeurIPS Data-Centric AI Workshop 2021</p>
+            <p class="material">
+                <a href="https://datacentricai.org/neurips21/papers/58_CameraReady_camera_ready_v2.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li> 
+        
         <li>
             <div class="thumb"><img src="images/thumb_neurips21.png"></img></div>
             <div class="details">
@@ -254,7 +436,7 @@
             <div class="thumb"><img src="images/thumb_iccv21_pointset.png"></img></div>
             <div class="details">
             <p class="title">Point-set Distances for Learning Representations of 3D Point Clouds</p>
-            <p class="author"><a href="">Trung Nguyen</a>, Quang-Hieu Pham, Tam Le, Tung Pham, Nhat Ho, <span class="me">Binh-Son Hua</span></p>
+            <p class="author"><a href="https://trung6.github.io">Trung Nguyen</a>, Quang-Hieu Pham, Tam Le, Tung Pham, Nhat Ho, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">ICCV 2021</p>
             <p class="material">
                 <a href="https://arxiv.org/pdf/2102.04014.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
@@ -280,7 +462,7 @@
             <div class="thumb"><img src="images/thumb_miccai21_3ducaps.jpg"></img></div>
             <div class="details">
             <p class="title">3D-UCaps: 3D Capsules Unet for Volumetric Image Segmentation</p>
-            <p class="author"><a href="">Tan Nguyen</a>, <span class="me">Binh-Son Hua</span>, Ngan Le</p>
+            <p class="author"><a href="">Tan Nguyen</a>, <span class="me">Binh-Son Hua</span>, <a href="https://www.nganle.net/">Ngan Le</a></p>
             <p class="venue">MICCAI 2021 (<font color="#BB4444"><b>Oral</b></font>)</p>
             <p class="material">
                 <a href="pdf/nguyen-3d_ucaps-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
@@ -296,7 +478,7 @@
             <p class="author"><a href="">Ngoc-Vuong Ho</a>, 
                 Tan Nguyen,
                 Gia-Han Diep,
-                Ngan Le, <span class="me">Binh-Son Hua</span></p>
+                <a href="https://www.nganle.net/">Ngan Le</a>, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">MICCAI 2021</p>
             <p class="material">
                 <a href="pdf/ho-point_unet-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
@@ -319,6 +501,9 @@
             </div>
             <div class="clear"></div>
         </li> 
+
+        <!-- 2020 -->
+        <li><div class="hr-sect">2020</div></li>
 
         <li>
         <div class="thumb"><img src="images/thumb_3dv20.jpg"></img></div>
@@ -358,6 +543,9 @@
         </div>
         <div class="clear"></div>
         </li>
+
+        <!-- 2019 -->
+        <li><div class="hr-sect">2019</div></li>
         
         <li>
         <div class="thumb"><img src="images/thumb_iccv19_scanobjectnn.png"></img></div>
@@ -438,6 +626,9 @@
         <div class="clear"></div>
         </li>
         
+        <!-- 2018 -->
+        <li><div class="hr-sect">2018</div></li>
+
         <li>
         <div class="thumb"><img src="images/thumb_siggraph_asia18.jpg"></img></div>
         <div class="details">
@@ -543,6 +734,9 @@
         </div>
         <div class="clear"></div>
         </li>
+
+        <!-- 2017 -->
+        <li><div class="hr-sect">2017</div></li>
 		
         <li>
         <div class="thumb"><img src="images/thumb_tvcg17.gif"></img></div>
@@ -593,6 +787,9 @@
         <div class="clear"></div>
         </li>
 
+        <!-- 2016 -->
+        <li><div class="hr-sect">2016</div></li>
+
         <li>
         <div class="thumb"><img src="images/thumb_3dv16.jpg"></img></div>
         <div class="details">
@@ -620,6 +817,9 @@
         </div>
         <div class="clear"></div>
         </li>
+
+        <!-- 2015 and before -->
+        <li><div class="hr-sect">2015 and before</div></li>
 
         <li>
         <div class="thumb"><img src="images/thumb_sa15.jpg"></img></div>
@@ -757,7 +957,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<p class="text-right">Last update: July 28, 2021</p>
+				<p class="text-right">Last update: Aug 05, 2022</p>
 			</div>
 		</div>
 	</div>
