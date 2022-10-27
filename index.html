@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
+    <!-- Fontawesome for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -103,43 +106,7 @@
     </style>
 </head>
 
-<body data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-
-            <!-- When view is too narrow (mobile mode), navigation will collapse -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#research">Research</a>
-                    </li>
-                    <!--
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    -->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<body>
 
     <!-- About Section -->
     <section id="about" class="about-section">
@@ -153,21 +120,21 @@
                     <p>Research Scientist, VinAI</p>
                     <!--<p>Affiliate Assistant Professor, VinUniversity</p>--> 
                     
-                    <p class="text-info"><span class="glyphicon glyphicon-envelope">&nbsp;</span>binhson.hua (at) gmail</p>
+                    <p class="text-info"><span class="fas fa-envelope">&nbsp;</span>binhson.hua (at) gmail</p>
                     <p class="text-info">
-                    <span class="glyphicon glyphicon-bookmark">&nbsp;</span><a href="https://scholar.google.com/citations?user=sV_VjsAAAAAJ&hl=en">Google Scholar</a>
+                    <span class="fas fa-bookmark">&nbsp;</span><a href="https://scholar.google.com/citations?user=sV_VjsAAAAAJ&hl=en">Google Scholar</a>
                     </p>
 
                     <!--
                     <p class="text-info">
-                    <span class="glyphicon glyphicon-file">&nbsp;</span><a href="pdf/SonHua-CV.pdf">CV</a>
+                    <span class="fas fa-file">&nbsp;</span><a href="pdf/SonHua-CV.pdf">CV</a>
                     </p>
                     -->
 
                     </div>
                     <div style="float:right">
 
-                    <img src="images/face2019.jpg" class="img-fluid border" style="width:128px"></img>
+                    <img src="images/face2019.jpg" class="img-fluid rounded" style="width:128px"></img>
 
                     </div>
                     <div style="clear:left"></div>
@@ -252,9 +219,64 @@
 
                     <ul class="research">
         
+        <!-- 2023 -->
+        <li><div class="hr-sect">2023</div></li>
+        
+        <li>
+            <div class="thumb"><img src="images/thumb_wacv23_point.jpg"></img></div>
+            <div class="details">
+            <p class="title">PointInverter: Point Cloud Reconstruction and Editing via a Generative Model with Shape Priors</p>
+            <p class="author">Jaeyeon Kim, <span class="me">Binh-Son Hua</span>, Duc-Thanh Nguyen, Sai-Kit Yeung</p>
+            <p class="venue">WACV 2023</p>
+            <p class="material">
+                <!--<a href="" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
+                -->
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <li>
+            <div class="thumb"><img src="images/thumb_wacv23_hdr.jpg"></img></div>
+            <div class="details">
+            <p class="title">Single-Image HDR Reconstruction by Multi-Exposure Generation</p>
+            <p class="author">Phuoc-Hieu Le, Quynh Le, Rang Nguyen, <span class="me">Binh-Son Hua</span></p>
+            <p class="venue">WACV 2023</p>
+            <p class="material">
+                <!--
+                <a href="" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
+                -->
+
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
         <!-- 2022 -->
         <li><div class="hr-sect">2022</div></li>
 
+        <li>
+            <div class="thumb"><img src="images/thumb_accv22.jpg"></img></div>
+            <div class="details">
+            <p class="title">Self-Supervised Learning with Multi-View Rendering for 3D Point Cloud Analysis</p>
+            <p class="author">Bach Tran, <span class="me">Binh-Son Hua</span>, Anh Tuan Tran, Minh Hoai</p>
+            <p class="venue">ACCV 2022</p>
+            <p class="material">
+                <!--
+                <a href="" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
+                -->
+            </p>
+            </div>
+            <div class="clear"></div>
+        </li>
+
+        <!-- -->
         <li>
             <div class="thumb"><img src="images/thumb_eccv22_rfnet.gif"></img></div>
             <div class="details">
@@ -262,8 +284,11 @@
             <p class="author">Tuan-Anh Vu, Duc-Thanh Nguyen, <span class="me">Binh-Son Hua</span>, Quang-Hieu Pham, Sai-Kit Yeung</p>
             <p class="venue">ECCV 2022 (<font color="#BB4444"><b>Oral</b></font>)</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2203.16482.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+                <a href="
+                https://tuananh1007.github.io/RFNet-4D/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://arxiv.org/pdf/2203.16482.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://github.com/hkust-vgd/RFNet-4D" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -273,13 +298,14 @@
             <div class="thumb"><img src="images/thumb_eccv22_nds.jpg"></img></div>
             <div class="details">
             <p class="title">Neural Scene Decoration from a Single Photograph</p>
-            <p class="author">Hong-Wing Pang, Yingshu Chen, <span class="me">Binh-Son Hua</span>, Sai-Kit Yeung</p>
+            <p class="author">Hong-Wing Pang, Yingshu Chen, Phuoc-Hieu Le, <span class="me">Binh-Son Hua</span>, Duc Thanh Nguyen, Sai-Kit Yeung</p>
             <p class="venue">ECCV 2022</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2108.01806.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-            <!--
-                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
-            -->
+                <a href="
+                https://hieultp.github.io/publication/neural-scene-decoration/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://arxiv.org/pdf/2108.01806.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://github.com/hkust-vgd/neural_scene_decoration" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -292,8 +318,10 @@
             <p class="author">Tan M. Dinh, Rang Nguyen, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">ECCV 2022</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2112.01398.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-                <a href="https://github.com/VinAIResearch/tise-toolbox" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+                <a href="
+                https://di-mi-ta.github.io/HyperInverter/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://arxiv.org/pdf/2112.01398.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://github.com/VinAIResearch/tise-toolbox" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -306,8 +334,8 @@
             <p class="author">Khoi D. Nguyen, Quoc-Huy Tran, Khoi Nguyen, <span class="me">Binh-Son Hua</span>, Rang Nguyen</p>
             <p class="venue">ECCV 2022</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2207.10785.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+                <a href="https://arxiv.org/pdf/2207.10785.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://github.com/VinAIResearch/fsvc-ata" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -320,7 +348,9 @@
             <p class="author">Jonghee Back, <span class="me">Binh-Son Hua</span>, Toshiya Hachisuka, Bochang Moon</p>
             <p class="venue">SIGGRAPH North America Conference Proceedings 2022</p>
             <p class="material">
-                <a href="https://dl.acm.org/doi/pdf/10.1145/3528233.3530730" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://cglab.gist.ac.kr/sig22sspc/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3528233.3530730" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://github.com/CGLab-GIST/self-supervised-post-corr" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -333,7 +363,9 @@
             <p class="author">Corentin Salaün, Adrien Gruson, <span class="me">Binh-Son Hua</span>, Toshiya Hachisuka, Gurprit Singh</p>
             <p class="venue">SIGGRAPH North America 2022</p>
             <p class="material">
-                <a href="https://dl.acm.org/doi/pdf/10.1145/3528223.3530095" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://sampling.mpi-inf.mpg.de/2022-salaun-regressionmc.html" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3528223.3530095" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -347,8 +379,11 @@
             <p class="author">Yingshu Chen, Tuan-Anh Vu, Ka-Chun Shum, <span class="me">Binh-Son Hua</span>, Sai-Kit Yeung</p>
             <p class="venue">ICCP 2022</p>
             <p class="material">
-                <a href="https://chenyingshu.github.io/time_of_day/assets/ICCP_2022_paper.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-                <a href="" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
+                <a href="https://chenyingshu.github.io/time_of_day/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+
+                <a href="https://chenyingshu.github.io/time_of_day/assets/ICCP_2022_paper.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+
+                <a href="https://github.com/hkust-vgd/architectural_style_transfer" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -361,8 +396,10 @@
             <p class="author">Tan M Dinh, Anh Tuan Tran, Rang Nguyen, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">CVPR 2022</p>
             <p class="material">
-                <a href="https://di-mi-ta.github.io/HyperInverter/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
-                <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Dinh_HyperInverter_Improving_StyleGAN_Inversion_via_Hypernetwork_CVPR_2022_paper.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://di-mi-ta.github.io/HyperInverter/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Dinh_HyperInverter_Improving_StyleGAN_Inversion_via_Hypernetwork_CVPR_2022_paper.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://github.com/VinAIResearch/HyperInverter" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -375,7 +412,11 @@
             <p class="author">Zhiyuan Zhang, <span class="me">Binh-Son Hua</span>, Sai-Kit Yeung</p>
             <p class="venue">International Journal of Computer Vision (IJCV) 2022</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2202.13094.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://www.zhiyuanzhang.net/projects/riconv" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://arxiv.org/pdf/2202.13094.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://github.com/cszyzhang/riconv2" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -388,7 +429,8 @@
             <p class="author">Minh Tran, Loi Ly, <span class="me">Binh-Son Hua</span>, <a href="https://www.nganle.net/">Ngan Le</a></p>
             <p class="venue">International Symposium on Biomedical Imaging (ISBI) 2022</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2201.05905.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://arxiv.org/pdf/2201.05905.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://github.com/UARK-AICV/SS-3DCapsNet" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -404,7 +446,7 @@
             <p class="author"><a href="https://trung6.github.io">Trung Nguyen</a>, <span class="me">Binh-Son Hua</span>, Duc Thanh Nguyen, Dinh Phung</p>
             <p class="venue">NeurIPS Data-Centric AI Workshop 2021</p>
             <p class="material">
-                <a href="https://datacentricai.org/neurips21/papers/58_CameraReady_camera_ready_v2.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://datacentricai.org/neurips21/papers/58_CameraReady_camera_ready_v2.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -417,8 +459,9 @@
             <p class="author"><a href="https://lehduong.github.io/">Duong H. Le</a>*, Khoi D. Nguyen*, Khoi Nguyen, Quoc-Huy Tran, Rang Nguyen, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">NeurIPS 2021</p>
             <p class="material">
-                <a href="https://openreview.net/pdf?id=wEvO8BCqZcm" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-                <a href="https://openreview.net/forum?id=wEvO8BCqZcm" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;review</a>
+                <a href="https://openreview.net/pdf?id=wEvO8BCqZcm" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://openreview.net/forum?id=wEvO8BCqZcm" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;review</a>
+                <a href="https://github.com/lehduong/poodle" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -431,8 +474,8 @@
             <p class="author"><a href="https://sabyasachi.mukherjee.moe/">Sabyasachi Mukherjee</a>, <a href="https://homepages.math.uic.edu/~potla/">Sayan Mukherjee</a>, <span class="me">Binh-Son Hua</span>, <a href="https://cgenglab.github.io/labpage/en/authors/admin/">Nobuyuki Umetani</a>, <a href="https://meistdan.github.io/">Daniel Meister</a></p>
             <p class="venue">Computer Graphics Forum (Proceedings of Pacific Graphics) 2021</p>
             <p class="material">
-                <a href="https://sabyasachi.mukherjee.moe/publication/neural-sequence-transformation" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
-                <a href="https://sabyasachi.mukherjee.moe/files/nst.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://sabyasachi.mukherjee.moe/publication/neural-sequence-transformation" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+                <a href="https://sabyasachi.mukherjee.moe/files/nst.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -445,7 +488,11 @@
             <p class="author"><a href="https://trung6.github.io">Trung Nguyen</a>, Quang-Hieu Pham, Tam Le, Tung Pham, Nhat Ho, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">ICCV 2021</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2102.04014.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://trung6.github.io/project/PointSWD" role="button" class="btn btn-sm btn-primary"><span class="fa fa-file" aria-hidden="true"></span>&nbsp;project</a> 
+                <a href="https://arxiv.org/pdf/2102.04014.pdf" role="button" class="btn btn-sm btn-default"><span class="fa fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://github.com/VinAIResearch/PointSWD" role="button" class="btn btn-sm btn-default"><span class="fa fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -458,7 +505,9 @@
             <p class="author"><a href="">Jaeyeon Kim</a>, <span class="me">Binh-Son Hua</span>, Duc Thanh Nguyen, Sai-Kit Yeung</p>
             <p class="venue">ICCV 2021</p>
             <p class="material">
-                <a href="https://arxiv.org/pdf/2008.12066.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://arxiv.org/pdf/2008.12066.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="
+                https://github.com/hkust-vgd/minimal_adversarial_pcd" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -471,7 +520,8 @@
             <p class="author"><a href="">Tan Nguyen</a>, <span class="me">Binh-Son Hua</span>, <a href="https://www.nganle.net/">Ngan Le</a></p>
             <p class="venue">MICCAI 2021 (<font color="#BB4444"><b>Oral</b></font>)</p>
             <p class="material">
-                <a href="pdf/nguyen-3d_ucaps-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="pdf/nguyen-3d_ucaps-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://github.com/VinAIResearch/3D-UCaps" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -487,8 +537,9 @@
                 <a href="https://www.nganle.net/">Ngan Le</a>, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">MICCAI 2021</p>
             <p class="material">
-                <a href="pdf/ho-point_unet-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-                <a href="pdf/ho-point_unet-supp-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;supplementary</a>
+                <a href="pdf/ho-point_unet-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="pdf/ho-point_unet-supp-miccai21.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;supplementary</a>
+                <a href="https://github.com/VinAIResearch/Point-Unet" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -501,8 +552,9 @@
             <p class="author"><a href="https://lehduong.github.io/">Duong H. Le</a>, <span class="me">Binh-Son Hua</span></p>
             <p class="venue">ICLR 2021</p>
             <p class="material">
-                <a href="https://openreview.net/pdf?id=Cb54AMqHQFP" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-                <a href="https://openreview.net/forum?id=Cb54AMqHQFP" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;review</a>
+                <a href="https://openreview.net/pdf?id=Cb54AMqHQFP" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+                <a href="https://openreview.net/forum?id=Cb54AMqHQFP" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;review</a>
+                <a href="https://github.com/lehduong/NPTM" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
             </p>
             </div>
             <div class="clear"></div>
@@ -518,7 +570,7 @@
         <p class="author">Zhiyuan Zhang, <span class="me">Binh-Son Hua</span>, Wei Chen, Yibin Tian, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">3DV 2020 (<font color="#BB4444"><b>Oral</b></font>)</p>
         <p class="material">
-            <a href="https://arxiv.org/pdf/2008.02986.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;arxiv</a>
+            <a href="https://arxiv.org/pdf/2008.02986.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -531,7 +583,9 @@
         <p class="author">Jonghee Back, <span class="me">Binh-Son Hua</span>, <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a>, and <a href="https://cglab.gist.ac.kr/people/bochang.html">Bochang Moon</a></p>
         <p class="venue">SIGGRAPH Asia 2020</p>
         <p class="material">
-            <a href="https://cglab.gist.ac.kr/publications/2020_Deep_Combiner_for_Independent_and_Correlated_Pixel_Estimates.html" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://cglab.gist.ac.kr/publications/2020_Deep_Combiner_for_Independent_and_Correlated_Pixel_Estimates.html" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3414685.3417847" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+            <a href="https://github.com/CGLab-GIST/deep-combiner" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -544,7 +598,7 @@
         <p class="author"><a href="https://pqhieu.github.io">Quang-Hieu Pham</a>, <a href="https://mikacuy.github.io/">Mikaela Angelina Uy</a>, <span class="me">Binh-Son Hua</span>, Duc Thanh Nguyen, Gemma Roig, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">AAAI 2020 (<font color="#BB4444"><b>Oral</b></font>)</p>
         <p class="material">
-            <a href="https://pqhieu.github.io/research/lcd/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://pqhieu.com/research/aaai20/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -560,7 +614,7 @@
         <p class="author"><a href="https://mikacuy.github.io/">Mikaela Angelina Uy</a>, <a href="https://pqhieu.github.io">Quang-Hieu Pham</a>, <span class="me">Binh-Son Hua</span>, Duc Thanh Nguyen, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">ICCV 2019 (<font color="#BB4444"><b>Oral</b></font>)</p>
         <p class="material">
-            <a href="https://hkust-vgd.github.io/scanobjectnn/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://hkust-vgd.github.io/scanobjectnn/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -573,7 +627,7 @@
         <p class="author">Zhiyuan Zhang, <span class="me">Binh-Son Hua</span>, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">ICCV 2019 (<font color="#BB4444"><b>Oral</b></font>)</p>
         <p class="material">
-            <a href="https://hkust-vgd.github.io/shellnet/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://hkust-vgd.github.io/shellnet/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -586,7 +640,7 @@
         <p class="author">Zhiyuan Zhang, <span class="me">Binh-Son Hua</span>, David W. Rosen, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">3DV 2019</p>
         <p class="material">
-            <a href="https://hkust-vgd.github.io/riconv/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://hkust-vgd.github.io/riconv/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -596,11 +650,12 @@
         <div class="thumb"><img src="images/thumb_siggraph_asia18.jpg"></img></div>
         <div class="details">
         <p class="title">A Survey on Gradient-Domain Rendering</p>
-        <p class="author"><span class="me">Binh-Son Hua</span>*, <a href="https://beltegeuse.github.io/research/">Adrien Gruson</a>*, Victor Petitjean, <a href="https://www.cs.umd.edu/~zwicker/">Matthias Zwicker</a>, Derek Nowrouzezahrai, Elmar Eisemann, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="small">(*) Equal contributation</span></p>
+        <p class="author"><span class="me">Binh-Son Hua</span>*, <a href="https://profs.etsmtl.ca/agruson/">Adrien Gruson</a>*, Victor Petitjean, <a href="https://www.cs.umd.edu/~zwicker/">Matthias Zwicker</a>, Derek Nowrouzezahrai, Elmar Eisemann, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></p>
 		<p class="venue">Eurographics 2019 State of the Art Reports</p>
         <p class="material">
-            <a href="pdf/hua-survey-eg19.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-            <a href="http://beltegeuse.s3-website-ap-northeast-1.amazonaws.com/research/2019_GradientSTAR/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
+            <a href="pdf/hua-survey-eg19.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+            <a href="https://adrien-gruson.com/research/2019_GradientSTAR/" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;slides</a>
+            <a href="https://github.com/gradientpm/gradient-mts" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -613,7 +668,7 @@
         <p class="author">Quang-Hieu Pham, Duc Thanh Nguyen, <span class="me">Binh-Son Hua</span>, Gemma Roig, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">CVPR 2019 (<font color="#BB4444"><b>Oral</b></font>)</p>
         <p class="material">
-            <a href="https://pqhieu.github.io/cvpr19/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://pqhieu.com/research/cvpr19/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -626,7 +681,7 @@
         <p class="author">Quang-Hieu Pham, <span class="me">Binh-Son Hua</span>, Duc Thanh Nguyen, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">WACV 2019</p>
         <p class="material">
-            <a href="https://pqhieu.github.io/wacv19/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="https://pqhieu.com/research/wacv19/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -639,10 +694,10 @@
         <div class="thumb"><img src="images/thumb_siggraph_asia18.jpg"></img></div>
         <div class="details">
         <p class="title">Light Transport Simulation in the Gradient Domain</p>
-        <p class="author"><span class="me">Binh-Son Hua</span>, <a href="https://beltegeuse.github.io/research/">Adrien Gruson</a>, <a href="https://www.cs.umd.edu/~zwicker/">Matthias Zwicker</a>, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></p>
+        <p class="author"><span class="me">Binh-Son Hua</span>, <a href="https://profs.etsmtl.ca/agruson/">Adrien Gruson</a>, <a href="https://www.cs.umd.edu/~zwicker/">Matthias Zwicker</a>, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></p>
 		<p class="venue">SIGGRAPH Asia 2018 Courses</p>
         <p class="material">
-              <a href="http://beltegeuse.s3-website-ap-northeast-1.amazonaws.com/research/2018_GradientCourse/" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
+              <a href="https://adrien-gruson.com/research/2018_GradientCourse/" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;slides</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -666,7 +721,7 @@
         </p>
 		<p class="venue">SIGGRAPH Asia 2018</p>
         <p class="material">
-              <a href="http://www.sfu.ca/~agadipat/publications/2018/T2S/project_page.html" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+              <a href="http://www.sfu.ca/~agadipat/publications/2018/T2S/project_page.html" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -680,7 +735,7 @@
 		<p class="author">Invited Speaker: <a href="http://www.saikit.org">Sai-Kit Yeung</a> and Quang-Hieu Pham</p>
         <p class="venue">IROS 2018 Tutorial</p>
         <p class="material">
-              <a href="http://103.24.77.34:8080/scenenn/home/iros18/index.html" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
+              <a href="http://103.24.77.34:8080/scenenn/home/iros18/index.html" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;slides</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -690,12 +745,12 @@
         <div class="thumb"><img src="images/thumb_siggraph18.jpg"></img></div>
         <div class="details">
         <p class="title">Gradient-domain Volumetric Photon Density Estimation</p>
-        <p class="author"><a href="https://beltegeuse.github.io/research/">Adrien Gruson</a>, <span class="me">Binh-Son Hua</span>, Nicolas Vibert, <a href="http://www.cim.mcgill.ca/~derek/">Derek Nowrouzezahrai</a>, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></p>
+        <p class="author"><a href="https://profs.etsmtl.ca/agruson/">Adrien Gruson</a>, <span class="me">Binh-Son Hua</span>, Nicolas Vibert, <a href="http://www.cim.mcgill.ca/~derek/">Derek Nowrouzezahrai</a>, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></p>
 		<p class="venue">SIGGRAPH 2018</p>
         <p class="material">
-              <a href="http://beltegeuse.s3-website-ap-northeast-1.amazonaws.com/research/2018_GVPM.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-              <a href="https://github.com/gradientpm/gvpm" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;code</a>
-              <a href="http://beltegeuse.s3-website-ap-northeast-1.amazonaws.com/research/2018_GVPM/GVPM_Presentation.pptx" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
+              <a href="https://adrien-gruson.com/research/2018_GVPM.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+              <a href="https://github.com/gradientpm/gvpm" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
+              <a href="https://adrien-gruson.com/research/2018_GVPM/GVPM_Presentation.pptx" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;slides</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -708,7 +763,9 @@
         <p class="author"><span class="me">Binh-Son Hua</span>, Minh-Khoi Tran, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">CVPR 2018</p>
         <p class="material">
-              <a href="http://pointwise.scenenn.net" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;project</a>
+              <a href="http://pointwise.scenenn.net" role="button" class="btn btn-sm btn-primary"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;project</a>
+              <a href="https://arxiv.org/pdf/1712.05245.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+              <a href="https://github.com/hkust-vgd/pointwise" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;code</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -722,7 +779,7 @@
 		<p class="author">Invited Speakers: <a href="http://ducthanhnguyen.weebly.com/">Duc Thanh Nguyen</a> and Quang-Hieu Pham</p>
         <p class="venue">ICRA 2018 Tutorial</p>
         <p class="material">
-              <a href="http://103.24.77.34:8080/scenenn/home/icra18/index.html" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
+              <a href="http://103.24.77.34:8080/scenenn/home/icra18/index.html" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;slides</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -735,7 +792,7 @@
         <p class="author">Quang-Hieu Pham, <span class="me">Binh-Son Hua</span>, <a href="https://www.cs.umb.edu/~craigyu/">Lap-Fai Yu</a>, <a href="http://ducthanhnguyen.weebly.com/">Duc Thanh Nguyen</a>, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
 		<p class="venue">Eurographics Workshop on 3D Object Retrieval 2018</p>
         <p class="material">
-              <a href="http://shrec18.scenenn.net" role="button" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
+              <a href="http://shrec18.scenenn.net" role="button" class="btn btn-sm btn-primary"><span class="fas fa-home" aria-hidden="true"></span>&nbsp;project</a>
 		</p>
         </div>
         <div class="clear"></div>
@@ -751,11 +808,8 @@
         <p class="author"><a href="http://ducthanhnguyen.weebly.com/">Duc Thanh Nguyen</a>*, <span class="me">Binh-Son Hua</span>*, <a href="https://www.cs.umb.edu/~craigyu/">Lap-Fai Yu</a>, and <a href="http://www.saikit.org">Sai-Kit Yeung</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="small">(*) Equal contributation</span></p>
         <p class="venue">TVCG 2017</p>
         <p class="material">
-              <a href="pdf/nguyen-annotation-tvcg17.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-              <!--
-			  <a href="#" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
-			  <a href="#" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>&nbsp;code</a>
-              -->
+            <a href="https://hkust-vgd.ust.hk/scenenn/home/tvcg17/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-home" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="pdf/nguyen-annotation-tvcg17.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -765,13 +819,13 @@
         <div class="thumb"><img src="images/thumb_eg17.png"></img></div>
         <div class="details">
         <p class="title">Gradient-Domain Photon Density Estimation</p>
-        <p class="author"><span class="me">Binh-Son Hua</span>, <a href="https://beltegeuse.github.io/research/">Adrien Gruson</a>, <a href="http://www.cim.mcgill.ca/~derek/">Derek Nowrouzezahrai</a>, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></p>
+        <p class="author"><span class="me">Binh-Son Hua</span>, <a href="https://profs.etsmtl.ca/agruson/">Adrien Gruson</a>, <a href="http://www.cim.mcgill.ca/~derek/">Derek Nowrouzezahrai</a>, and <a href="http://www.ci.i.u-tokyo.ac.jp/~hachisuka/">Toshiya Hachisuka</a></p>
         <p class="venue">Eurographics 2017</p>
         <p class="material">
-              <a href="pdf/hua-gpm-eg17.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-			  <a href="http://beltegeuse.s3-website-ap-northeast-1.amazonaws.com/research/2017_GPM/presentation_GPM.pptx" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
-			  <a href="http://beltegeuse.s3-website-ap-northeast-1.amazonaws.com/research/2017_GPM/comparison/index.html" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;supplementary</a>
-			  <a href="https://github.com/gradientpm/gpm" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>&nbsp;code</a>
+              <a href="pdf/hua-gpm-eg17.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+			  <a href="https://adrien-gruson.com/research/2017_GPM/presentation_GPM.pptx" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;slides</a>
+			  <a href="https://adrien-gruson.com/research/2017_GPM/comparison/index.html" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;supplementary</a>
+			  <a href="https://github.com/gradientpm/gpm" role="button" class="btn btn-sm btn-default"><span class="fas fa-menu-hamburger" aria-hidden="true"></span>&nbsp;code</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -785,9 +839,9 @@
 		<p class="author">(with 18 amazing participants in 5 groups)</p>
         <p class="venue">Eurographics Workshop on 3D Object Retrieval 2017</p>
         <p class="material">
-              <a href="http://shrec17.scenenn.net" role="button" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
-			  <a href="pdf/hua-shrec17.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
-              <a href="pdf/hua-shrec17-objectnn.pptx" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;slides</a>
+              <a href="http://shrec17.scenenn.net" role="button" class="btn btn-sm btn-primary"><span class="fas fa-home" aria-hidden="true"></span>&nbsp;project</a>
+			  <a href="pdf/hua-shrec17.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
+              <a href="pdf/hua-shrec17-objectnn.pptx" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;slides</a>
 		</p>
         </div>
         <div class="clear"></div>
@@ -803,7 +857,7 @@
         <p class="author"><span class="me">Binh-Son Hua</span>, Quang-Hieu Pham, <a href="http://ducthanhnguyen.weebly.com/">Duc Thanh Nguyen</a>, Minh-Khoi Tran, <a href="https://www.cs.umb.edu/~craigyu/">Lap-Fai Yu</a>, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">3DV 2016 (<font color="#BB4444"><b>Best Paper Honorable Mention</b></font>)</p>
         <p class="material">
-              <a href="http://scenenn.net" role="button" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
+              <a href="http://scenenn.net" role="button" class="btn btn-sm btn-primary"><span class="fas fa-home" aria-hidden="true"></span>&nbsp;project</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -816,9 +870,9 @@
         <p class="author"><a href="http://ducthanhnguyen.weebly.com/">Duc Thanh Nguyen</a>, <span class="me">Binh-Son Hua</span>, Minh-Khoi Tran, Quang-Hieu Pham, and <a href="http://www.saikit.org">Sai-Kit Yeung</a></p>
         <p class="venue">CVPR 2016 (Spotlight)</p>
         <p class="material">
-              <a href="pdf/nguyen-repairing-cvpr16.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+              <a href="pdf/nguyen-repairing-cvpr16.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
               <a href="pdf/nguyen-repairing-cvpr16-poster.pdf" role="button" class="btn btn-sm btn-default">poster</a>
-              <a href="https://drive.google.com/open?id=0B26unsbsgCKWSGs1ckdxNnprUlk" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>&nbsp;dataset (100 MB)</a>
+              <a href="https://drive.google.com/open?id=0B26unsbsgCKWSGs1ckdxNnprUlk" role="button" class="btn btn-sm btn-default"><span class="fas fa-download-alt" aria-hidden="true"></span>&nbsp;dataset (100 MB)</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -834,9 +888,9 @@
         <p class="author"><span class="me">Binh-Son Hua</span> and <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a></p>
         <p class="venue">SIGGRAPH Asia 2015 Posters Program</p>
         <p class="material">
-              <a href="pdf/hua-metro.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+              <a href="pdf/hua-metro.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
               <a href="pdf/hua-metro-poster.pdf" role="button" class="btn btn-sm btn-default">poster</a>
-			  <a href="https://github.com/songuke/renzoku" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>&nbsp;code</a>
+			  <a href="https://github.com/songuke/renzoku" role="button" class="btn btn-sm btn-default"><span class="fas fa-menu-hamburger" aria-hidden="true"></span>&nbsp;code</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -849,7 +903,7 @@
         <p class="author">Ramanpreet Pahwa, Minh Do, <a href="http://www1.i2r.a-star.edu.sg/~ttng/">Tian-Tsong Ng</a>, and <span class="me">Binh-Son Hua</span></p>
         <p class="venue">ICIP 2014</p>
 		<p class="material">
-              <a href="pdf/raman-calibration-icip14.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+              <a href="pdf/raman-calibration-icip14.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -862,7 +916,7 @@
         <p class="author"><a href="https://sites.google.com/site/dawnlishen/">Li Shen</a>, Chuohao Yeo, and <span class="me">Binh-Son Hua</span></p>
         <p class="venue">TPAMI 2013</p>
 		<p class="material">
-              <a href="pdf/shen-intrinsics-pami13.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+              <a href="pdf/shen-intrinsics-pami13.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -875,8 +929,8 @@
         <p class="author"><span class="me">Binh-Son Hua</span>, <a href="http://research.nii.ac.jp/~imarik/">Imari Sato</a>, and <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a></p>
         <p class="venue">ICIP 2013</p>
         <p class="material">
-            <a href="project/dual/" role="button" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
-            <a href="project/dual/files/hua-dual-icip13.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            <a href="project/dual/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-home" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="project/dual/files/hua-dual-icip13.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -889,8 +943,8 @@
         <p class="author"><span class="me">Binh-Son Hua</span>, <a href="http://www1.i2r.a-star.edu.sg/~ttng/">Tian-Tsong Ng</a>, and <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a></p>
         <p class="venue">ICIP 2013</p>
         <p class="material">
-            <a href="project/geolight/" role="button" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
-            <a href="project/geolight/files/hua-geolight-icip13.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            <a href="project/geolight/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-home" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="project/geolight/files/hua-geolight-icip13.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -903,8 +957,8 @@
         <p class="author"><span class="me">Binh-Son Hua</span> and <a href="http://www.comp.nus.edu.sg/~lowkl/">Kok-Lim Low</a></p>
         <p class="venue">ICIP 2011</p>
         <p class="material">
-            <a href="project/deblur/" role="button" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;project</a>
-            <a href="project/deblur/files/hua-interactive-deblur.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            <a href="project/deblur/" role="button" class="btn btn-sm btn-primary"><span class="fas fa-home" aria-hidden="true"></span>&nbsp;project</a>
+            <a href="project/deblur/files/hua-interactive-deblur.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
             <a href="pdf/hua-interactive-deblur-poster-a0.pdf" role="button" class="btn btn-sm btn-default">poster</a>
             <a href="project/deblur/files/interactive-deblur-0.1.zip" role="button" class="btn btn-sm btn-default">code</a>
         </p>
@@ -919,7 +973,7 @@
         <p class="author">Lei Wang, <span class="me">Binh-Son Hua</span>, and Xueqing Li</p>
         <p class="venue">PCM 2010</p>
         <p class="material">
-            <a href="pdf/hua-adaptive-energy-diffusion-pcm10.pdf" role="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp;paper</a>
+            <a href="pdf/hua-adaptive-energy-diffusion-pcm10.pdf" role="button" class="btn btn-sm btn-default"><span class="fas fa-file" aria-hidden="true"></span>&nbsp;paper</a>
         </p>
         </div>
         <div class="clear"></div>
@@ -928,37 +982,10 @@
     </ul>
     </div> 
     </div>
-    
-    <!--
-    <div class="row">
-    <div class="col-lg-12">
-        <h3>Technical Report</h3>
 
-        <ul class="research">
-            
-        
-        </ul>
-	</div>
-    </div>
-    -->
     
         </div> <!-- end container -->
     </section> 
-
-    <!-- Contact Section -->
-    <!--
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Contact</h3>
-                    <p>Please feel free to email me if you have any questions.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
 
 	<div class="container">
 		<div class="row">
@@ -973,10 +1000,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
 
     <!-- Analytics -->
     <script>
